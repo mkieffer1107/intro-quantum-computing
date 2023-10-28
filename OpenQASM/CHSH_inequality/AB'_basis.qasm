@@ -1,0 +1,18 @@
+// measuring in AB' basis
+OPENQASM 2.0;
+include "qelib1.inc";
+
+qreg q[2];
+creg c[2];
+
+// A basis
+h q[1];
+
+// B' basis
+cx q[1], q[0];
+s q[0];
+h q[0];
+tdg q[0];
+h q[0];
+
+measure q -> c;
