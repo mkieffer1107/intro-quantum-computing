@@ -4,7 +4,7 @@ This repo stores some of the code I wrote while reading through a great quantum 
 
 <a href="https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e4p.pdf"><img src="cover.jpg" alt="version 4" width="300"/></a>
 
-## Topics Covered
+## Topics Covered + Circuit Implementations
 
 ### Adders ####
 
